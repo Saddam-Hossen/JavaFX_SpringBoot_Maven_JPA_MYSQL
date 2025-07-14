@@ -1,13 +1,9 @@
 
 **Subject:** Re: Request for Help: JavaFX JAR Not Running Outside IntelliJ
 
-Dear Suman,
 
-Thank you for reaching out, and I hope you’re doing well too. I’m glad to hear that you’re actively exploring JavaFX development — it’s a great choice for building modern desktop applications in Java.
 
-You're correct that running a JavaFX application outside of IntelliJ can be tricky due to missing runtime components. This typically happens because JavaFX is no longer bundled with the JDK, so the runtime environment needs to be explicitly provided.
-
-Since your application runs using `--module-path` and `--add-modules`, that confirms your code and dependencies are fine — you now just need to package it properly for standalone use.
+Since  application runs using `--module-path` and `--add-modules`, that confirms your code and dependencies are fine — you now just need to package it properly for standalone use.
 
 ### ✅ Recommended Approach: Use `module-info.java`
 
